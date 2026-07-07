@@ -1,11 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-refresh'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/-l/',
   plugins: [react()],
-  base: './', // يضمن قراءة المتصفح للملفات بشكل صحيح بدون صفحات بيضاء
-  build: {
-    outDir: 'dist', // تحديد مجلد المخرجات الرئيسي للواجهة
-  }
 })
