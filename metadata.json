@@ -1,0 +1,6 @@
+{
+  "name": "ملتقى القراءات القرآنية",
+  "description": "بوابة تفاعلية مخصصة لتبادل علوم القراءات القرآنية ومشاركة المحاضرات والمستندات والروابط التعليمية في الوقت الفعلي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
